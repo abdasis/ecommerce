@@ -162,7 +162,6 @@ ul#category-list {
 
 .featured-product {
   margin-top: 45px;
-  background: url("/assets/img/bg/bg-flashsale.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 40px;
@@ -174,25 +173,24 @@ ul#category-list {
 }
 
 #title-featured-product {
-  color: #fff;
+  color: #2d945f;
   font-size: 26px;
   margin-bottom: 20px;
 }
 
 #icon-featured {
-  border: 2px solid #fff;
+  border: 2px solid #2d945f;
   border-radius: 50%;
   padding: 5px;
   margin-right: 5px;
 }
 
 .box-promotion {
-  padding: 0;
+  padding: 10px;
   margin-top: 40px;
-  border-radius: 10px;
-  background: #00b09b;
-  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
-  background: linear-gradient(to left, #96c93d, #00b09b);
+  border-radius: 4px;
+  border: 1px dashed rgb(184, 184, 184);
+  background: #fff;
 }
 
 .heading-promotion {
@@ -200,7 +198,7 @@ ul#category-list {
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
-  color: #fff;
+  color: #2d945f;
   padding: 0;
   line-height: 16px;
 }
@@ -209,7 +207,7 @@ ul#category-list {
   margin: 0;
   font-size: 20px;
   font-size: 500;
-  color: #fff;
+  color: #2d945f;
   padding: 0;
   margin-left: 10px;
   margin-top: 0;
@@ -222,13 +220,13 @@ ul#category-list {
 }
 
 #icon-certificate {
-  color: #fff;
+  color: #2d945f;
   padding: 4px;
 }
 
 .icon-box {
   margin-top: 20px;
-  color: #fff;
+  color: #333;
 }
 
 h3#product-terbaru {
@@ -236,8 +234,7 @@ h3#product-terbaru {
   font-size: 20px;
   font-weight: 500;
   background: #007991;
-  background: -webkit-linear-gradient(to right, #78ffd6, #007991);
-  background: linear-gradient(to left, #78ffd6, #007991);
+  background: linear-gradient(to left, #96c93d, #00b09b);
   padding: 10px 10px;
   border-radius: 5px;
   color: #fff;
@@ -310,4 +307,10 @@ h5.footer-title-widget {
 .widget-content ul {
   margin: 0;
   padding: 0;
+}
+
+.left-banner {
+  background-image: url("/assets/img/banner/Cms-banner-1.jpg");
+  border-radius: 3px;
+  padding: 40px 10px;
 }
