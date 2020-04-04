@@ -1,0 +1,313 @@
+body {
+  background: #f5f5f5;
+}
+
+a {
+  color: #44bf7f;
+}
+
+.bottom-header {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  padding: 10px;
+}
+
+.search-icon-box {
+  background: #fff;
+}
+
+span#icon-search {
+  background: #fff;
+  border: none;
+}
+
+input.form-search.form-control {
+  border: none;
+}
+
+input[type="text"]:focus {
+  border: none;
+}
+button#btn-search {
+  background: #44bf7f;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: 600;
+}
+#btn-search:hover {
+  background: #2d945f;
+}
+
+div#box-search {
+  border: 1px solid #f4f4f4;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.btn-asis-green {
+  border: 1px solid #44bf7f;
+  color: #44bf7f;
+}
+
+.btn-asis-green:hover {
+  border: 1px solid #44bf7f;
+  color: #fff;
+  background: #44bf7f;
+}
+
+.group-btn-amt {
+  margin-top: 10px;
+}
+
+.logo-amt {
+  margin-top: 5px;
+}
+
+.navbar-expand-sm {
+  padding: 0px 20px;
+}
+
+ul#category-list {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#categoty-list a {
+  color: #44bf7f;
+}
+
+#category {
+  margin-left: 150px;
+  margin-top: 19px;
+  border-radius: 0px;
+  border: none;
+  border-top: 1px solid #44bf7f;
+}
+
+.after-icon {
+  font-size: 13px;
+  font-weight: 500;
+  color: #44bf7f;
+}
+
+/* style top header  */
+.top-header a {
+  font-size: 14px;
+  color: #3f4743;
+  font-weight: 600;
+}
+
+/* style banner */
+.banner {
+  height: 280;
+  margin-top: 20px;
+}
+
+.banner img {
+}
+
+.featured-category {
+  margin-top: 20px;
+}
+
+.category-box {
+  margin: 0em;
+  padding: 0px;
+}
+
+.category-box:hover {
+  cursor: pointer;
+}
+.category-list-box {
+  padding: 10px;
+}
+
+.card-title:hover {
+  color: #2d945f;
+}
+
+.section-category {
+  background: #fff;
+  padding: 0px;
+  border-top: 2px solid #2d945f;
+  box-shadow: 0 0 20px -4px rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+}
+
+.category-title {
+  padding: 0;
+}
+
+.category-title h5 {
+  font-size: 16px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* style feature product  */
+.featured-product-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.featured-product-title:hover {
+  cursor: pointer;
+}
+
+.featured-product {
+  margin-top: 45px;
+  background: url("/assets/img/bg/bg-flashsale.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+
+/* featured product style */
+.box-product.card {
+  border: none;
+}
+
+#title-featured-product {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+#icon-featured {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.box-promotion {
+  padding: 0;
+  margin-top: 40px;
+  border-radius: 10px;
+  background: #00b09b;
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);
+  background: linear-gradient(to left, #96c93d, #00b09b);
+}
+
+.heading-promotion {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+  color: #fff;
+  padding: 0;
+  line-height: 16px;
+}
+
+.sub-heading-promotion {
+  margin: 0;
+  font-size: 20px;
+  font-size: 500;
+  color: #fff;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 20px;
+}
+
+.text-box {
+  padding: 10px;
+}
+
+#icon-certificate {
+  color: #fff;
+  padding: 4px;
+}
+
+.icon-box {
+  margin-top: 20px;
+  color: #fff;
+}
+
+h3#product-terbaru {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  background: #007991;
+  background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+  background: linear-gradient(to left, #78ffd6, #007991);
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.box-product-news {
+  background: #fff;
+  border: none;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.column-product-terbaru {
+  margin: 0px;
+  padding: 10px;
+}
+
+.row-product-terbaru {
+  padding: 15px;
+}
+.meta-title {
+  padding: 0px 10px;
+  margin: 0px;
+}
+.meta-text {
+  margin: 0px;
+  padding: 0px 10px;
+}
+
+.meta-text p.harga {
+  font-size: 12px;
+  font-weight: 700;
+  color: #f4811a;
+  margin: 0px;
+}
+
+.meta-text p.rate {
+  font-size: 12px;
+  padding: 0px;
+}
+
+.title-product-terbaru {
+  padding: 10px;
+}
+
+.border-footer {
+  margin-top: -4px;
+  background: linear-gradient(to left, #78ffd6, #007991);
+  height: 4px;
+}
+
+footer {
+  background: #fff;
+}
+
+.box-footer {
+  padding: 20px 0px;
+}
+
+h5.footer-title-widget {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.widget-content li.item {
+  list-style: none;
+}
+
+.widget-content ul {
+  margin: 0;
+  padding: 0;
+}
